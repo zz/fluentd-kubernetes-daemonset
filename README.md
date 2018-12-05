@@ -10,18 +10,6 @@
 
 ### Debian
 
-- `v1.2-debian-elasticsearch` [docker-image/v1.2/debian-elasticsearch/Dockerfile](docker-image/v1.2/debian-elasticsearch/Dockerfile)
-- `v1.2-debian-loggly` [docker-image/v1.2/debian-loggly/Dockerfile](docker-image/v1.2/debian-loggly/Dockerfile)
-- `v1.2-debian-logentries` [docker-image/v1.2/debian-logentries/Dockerfile](docker-image/v1.2/debian-logentries/Dockerfile)
-- `v1.2-debian-cloudwatch` [docker-image/v1.2/debian-cloudwatch/Dockerfile](docker-image/v1.2/debian-cloudwatch/Dockerfile)
-- `v1.2-debian-stackdriver` [docker-image/v1.2/debian-stackdriver/Dockerfile](docker-image/v1.2/debian-stackdriver/Dockerfile)
-- `v1.2-debian-s3` [docker-image/v1.2/debian-s3/Dockerfile](docker-image/v1.2/debian-s3/Dockerfile)
-- `v1.2-debian-syslog` [docker-image/v1.2/debian-syslog/Dockerfile](docker-image/v1.2/debian-syslog/Dockerfile)
-- `v1.2-debian-gcs` [docker-image/v1.2/debian-gcs/Dockerfile](docker-image/v1.2/debian-gcs/Dockerfile)
-- `v1.2-debian-graylog` [docker-image/v1.2/debian-graylog/Dockerfile](docker-image/v1.2/debian-graylog/Dockerfile)
-- `v1.2-debian-papertrail` [docker-image/v1.2/debian-papertrail/Dockerfile](docker-image/v1.2/debian-papertrail/Dockerfile)
-- `v1.2-debian-logzio` [docker-image/v1.2/debian-logzio/Dockerfile](docker-image/v1.2/debian-logzio/Dockerfile)
-- `v1.2-debian-kafka` [docker-image/v1.2/debian-kafka/Dockerfile](docker-image/v1.2/debian-kafka/Dockerfile)
 - `v0.12-debian-elasticsearch` [docker-image/v0.12/debian-elasticsearch/Dockerfile](docker-image/v0.12/debian-elasticsearch/Dockerfile)
 - `v0.12-debian-loggly` [docker-image/v0.12/debian-loggly/Dockerfile](docker-image/v0.12/debian-loggly/Dockerfile)
 - `v0.12-debian-logentries` [docker-image/v0.12/debian-logentries/Dockerfile](docker-image/v0.12/debian-logentries/Dockerfile)
@@ -34,8 +22,23 @@
 - `v0.12-debian-graylog` [docker-image/v0.12/debian-graylog/Dockerfile](docker-image/v0.12/debian-graylog/Dockerfile)
 - `v0.12-debian-logzio` [docker-image/v0.12/debian-logzio/Dockerfile](docker-image/v0.12/debian-logzio/Dockerfile)
 - `v0.12-debian-kafka` [docker-image/v0.12/debian-kafka/Dockerfile](docker-image/v0.12/debian-kafka/Dockerfile)
+- `v0.12-debian-splunkhec` [docker-image/v0.12/debian-splunkhec/Dockerfile](docker-image/v0.12/debian-splunkhec/Dockerfile)
+- `v0.12-debian-kinesis` [docker-image/v0.12/debian-kinesis/Dockerfile](docker-image/v0.12/debian-kinesis/Dockerfile)
+- `v1.3-debian-elasticsearch` [docker-image/v1.3/debian-elasticsearch/Dockerfile](docker-image/v1.3/debian-elasticsearch/Dockerfile)
+- `v1.3-debian-loggly` [docker-image/v1.3/debian-loggly/Dockerfile](docker-image/v1.3/debian-loggly/Dockerfile)
+- `v1.3-debian-logentries` [docker-image/v1.3/debian-logentries/Dockerfile](docker-image/v1.3/debian-logentries/Dockerfile)
+- `v1.3-debian-cloudwatch` [docker-image/v1.3/debian-cloudwatch/Dockerfile](docker-image/v1.3/debian-cloudwatch/Dockerfile)
+- `v1.3-debian-stackdriver` [docker-image/v1.3/debian-stackdriver/Dockerfile](docker-image/v1.3/debian-stackdriver/Dockerfile)
+- `v1.3-debian-s3` [docker-image/v1.3/debian-s3/Dockerfile](docker-image/v1.3/debian-s3/Dockerfile)
+- `v1.3-debian-syslog` [docker-image/v1.3/debian-syslog/Dockerfile](docker-image/v1.3/debian-syslog/Dockerfile)
+- `v1.3-debian-gcs` [docker-image/v1.3/debian-gcs/Dockerfile](docker-image/v1.3/debian-gcs/Dockerfile)
+- `v1.3-debian-graylog` [docker-image/v1.3/debian-graylog/Dockerfile](docker-image/v1.3/debian-graylog/Dockerfile)
+- `v1.3-debian-papertrail` [docker-image/v1.3/debian-papertrail/Dockerfile](docker-image/v1.3/debian-papertrail/Dockerfile)
+- `v1.3-debian-logzio` [docker-image/v1.3/debian-logzio/Dockerfile](docker-image/v1.3/debian-logzio/Dockerfile)
+- `v1.3-debian-kafka` [docker-image/v1.3/debian-kafka/Dockerfile](docker-image/v1.3/debian-kafka/Dockerfile)
+- `v1.3-debian-kinesis` [docker-image/v1.3/debian-kinesis/Dockerfile](docker-image/v1.3/debian-kinesis/Dockerfile)
 
-### Alpine Linux
+### Alpine Linux (This is deprecated. Use Debian images instead)
 
 - `v0.12-alpine-elasticsearch` [docker-image/v0.12/alpine-elasticsearch/Dockerfile](docker-image/v0.12/alpine-elasticsearch/Dockerfile)
 - `v0.12-alpine-loggly` [docker-image/v0.12/alpine-loggly/Dockerfile](docker-image/v0.12/alpine-loggly/Dockerfile)
@@ -49,6 +52,8 @@
 - `v0.12-alpine-graylog` [docker-image/v0.12/alpine-graylog/Dockerfile](docker-image/v0.12/alpine-graylog/Dockerfile)
 - `v0.12-alpine-logzio` [docker-image/v0.12/alpine-logzio/Dockerfile](docker-image/v0.12/alpine-logzio/Dockerfile)
 - `v0.12-alpine-kafka` [docker-image/v0.12/alpine-kafka/Dockerfile](docker-image/v0.12/alpine-kafka/Dockerfile)
+- `v0.12-alpine-splunkhec` [docker-image/v0.12/alpine-splunkhec/Dockerfile](docker-image/v0.12/alpine-splunkhec/Dockerfile)
+- `v0.12-alpine-kinesis` [docker-image/v0.12/alpine-kinesis/Dockerfile](docker-image/v0.12/alpine-kinesis/Dockerfile)
 
 ## What is Fluentd?
 
@@ -70,6 +75,26 @@ Fluentd versioning is as follows:
 |--------|-------------------------------------|
 | v0.12  | Old stable, production ready        |
 | v1.x   | stable |
+
+## Settings
+
+### Run as root
+
+In Kubernetes and default setting, fluentd needs root permission to read logs in `/var/log` and write `pos_file` to `/var/log`.
+To avoid permission error, you need to set `FLUENT_UID` environment variable to `0` in your Kubernetes configuration.
+
+## Maintainers
+
+Some images are contributed by users. If you have a problem/question for following images, ask it to contributors.
+
+- cloudwatch : @so0k
+- papertrail : @alexouzounis
+- kafka : @erhudy
+- graylog : @rtnpro
+- gcs : @andor-pierdelacabeza
+- Amazon Kinesis : @shiftky
+- logz.io : @SaMnCo / @jamielennox
+- splunkhec: @FutureSharks
 
 ### References
 
