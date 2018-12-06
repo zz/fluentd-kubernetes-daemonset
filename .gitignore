@@ -1,3 +1,5 @@
 /fluentd-daemonset-elasticsearch-kinesis.yaml
 /prod-fluentd-daemonset-elasticsearch-kinesis.yaml
 /fluentd-daemonset-kinesis.yaml
+/dev-fluentd-daemonset-customize.yaml
+/prod-fluentd-daemonset-customize.yaml
